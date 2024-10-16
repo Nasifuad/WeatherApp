@@ -10,6 +10,7 @@ async function see_weather(url) {
   const response = await fetch(url);
   const data = await response.json();
   console.log(data);
+  console.log(data.current.temp_c);
   return data;
 }
 async function show_weather(url) {
