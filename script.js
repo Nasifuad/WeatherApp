@@ -44,7 +44,3 @@ addEventListener("keyup", (e) => {
     show_weather(new_api);
   }
 });
-// input.addEventListener("keydown", (e) => {
-//   const new_api = `${api}${input.value}`;
-//   show_weather(new_api);
-// });
