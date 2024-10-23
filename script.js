@@ -24,3 +24,13 @@ search.addEventListener("click", () => {
   const new_api = `${api}${input.value}`;
   show_weather(new_api);
 });
+addEventListener("keyup", (e) => {
+  if (e.key === "Enter") {
+    const new_api = `${api}${input.value}`;
+    show_weather(new_api);
+  }
+});
+input.addEventListener("keydown", (e) => {
+  const new_api = `${api}${input.value}`;
+  show_weather(new_api);
+});
